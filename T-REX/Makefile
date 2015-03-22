@@ -8,7 +8,7 @@
 # =======================================
 
 P=T-REX
-OBJ=main.o
+OBJ=main.o proxy.o
 LIB=libsoup-2.4
 MLIB=
 
@@ -24,7 +24,8 @@ ASFLAGS=-Wall -O0 -g
 
 $(P): $(OBJ)
 	$(CC) -o $(P) $(OBJ) $(LDLIBS)
-main.o:
+main.o: proxy.h
+proxy.o: proxy.h
 
 .PHONY: clean
 clean:
