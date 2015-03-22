@@ -5,7 +5,7 @@
  *
  * [] Creation Date : 22-03-2015
  *
- * [] Last Modified : Mon 23 Mar 2015 02:13:02 AM IRDT
+ * [] Last Modified : Mon 23 Mar 2015 02:27:09 AM IRDT
  *
  * [] Created By : Parham Alvani (parham.alvani@gmail.com)
  * =======================================
@@ -26,4 +26,5 @@ int main(int argc, char *argv[])
 
 	loop = g_main_loop_new(NULL, TRUE);
 	g_main_loop_run(loop);
+	g_main_loop_unref(loop);
 }
