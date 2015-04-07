@@ -5,7 +5,7 @@
  *
  * [] Creation Date : 23-03-2015
  *
- * [] Last Modified : Mon 23 Mar 2015 02:33:03 AM IRDT
+ * [] Last Modified : Wed 08 Apr 2015 12:34:02 AM IRDT
  *
  * [] Created By : Parham Alvani (parham.alvani@gmail.com)
  * =======================================
@@ -19,6 +19,8 @@
 #include "proxy.h"
 
 static SoupServer *server;
+
+#define DEST_URL "http://127.0.0.1:8080"
 
 static void copy_header(const char *name, const char *value,
 		gpointer dest_headers)
@@ -75,7 +77,9 @@ static void trex_callback(SoupServer *server, SoupMessage *msg,
 
 	session = soup_session_async_new();
 
-	uristr = soup_uri_to_string(soup_message_get_uri(msg), FALSE);
+	uristr = soup_uri_to_string(soup_message_get_uri(msg), TRUE);
+	/* TOD Memory Leak :-) */
+	uristr = g_strjoin(NULL, DEST_URL, uristr, NULL);
 	g_print("[%p] %s %s HTTP/1.%d\n", msg, msg->method, uristr,
 			soup_message_get_http_version(msg));
 	
