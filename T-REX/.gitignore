@@ -1,48 +1,36 @@
-TREX
-
-# for all subdirectories
-Makefile.in
-Makefile
-TAGS
-.libs
-.deps
+# Object files
 *.o
-*.lo
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
 *.la
-*.pc
-.*.swp
-.sw?
-*.rc
-*.gcno
-*.gcda
-*.gcov
-*.sourcefiles
-*.stp
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
 *.exe
-*.def
-*.test
-*.log
-*.trs
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
 
-# autofoo stuff here
-compile
-config.*
-configure
-depcomp
-aclocal.m4
-autom4te.cache
-stamp-*
-libtool
-ltmain.sh
-mingw32-config.cache
-missing
-install-sh
-glib-gettextize
-glib-zip
-gtk-doc.make
-py-compile
-test-driver
-
-INSTALL
-README
-ChangeLog
+# CMake
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
