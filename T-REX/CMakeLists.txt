@@ -1,3 +1,11 @@
+# In The Name Of God
+# ========================================
+# [] File Name : Makefile
+#
+# [] Creation Date : 08-04-2015
+#
+# [] Created By : Parham Alvani (parham.alvani@gmail.com)
+# =======================================
 cmake_minimum_required (VERSION 2.6)
 project (T-REX)
 
