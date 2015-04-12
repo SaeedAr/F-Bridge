@@ -7,3 +7,9 @@ only http.
 
 # Dependency
 1. [libsoup 2.48](https://developer.gnome.org/libsoup/stable/)
+
+# Installation
+```
+cmake .
+make
+```
