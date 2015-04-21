@@ -12,7 +12,7 @@ RBA (Remote Bridge Agent) pipeline:
                                           | |
                                           | |
                                   +------------------+
-				  | Presence Service |
-				  +------------------+
+                                  | Presence Service |
+                                  +------------------+
 
 ```
