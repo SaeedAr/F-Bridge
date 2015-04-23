@@ -17,8 +17,8 @@ set (CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin")
 subdirs (src)
 
 # The version number
-set (T-REX_MAJOR_VERSION 1)
-set (T-REX_MINOR_VERSION 0)
+set (TRAP_MAJOR_VERSION 1)
+set (TRAP_MINOR_VERSION 0)
 
 # Add personal c flags
 set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -O0 -g -std=gnu11 ")
