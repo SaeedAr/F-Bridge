@@ -12,9 +12,7 @@
 */
 #include <glib.h>
 #include <stdlib.h>
-#include <libsoup/soup.h>
-#include <string.h>
-#include <stdio.h>
+#include <stdbool.h>
 
 #include "proxy.h"
 
@@ -24,7 +22,7 @@ int main(int argc, char *argv[])
 
 	trex_init();
 
-	loop = g_main_loop_new(NULL, TRUE);
+	loop = g_main_loop_new(NULL, true);
 	g_main_loop_run(loop);
 	g_main_loop_unref(loop);
 }
