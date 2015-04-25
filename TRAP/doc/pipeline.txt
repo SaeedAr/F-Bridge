@@ -1,0 +1,13 @@
+In The Name Of God
+====================
+
++-----------+  +-----------------+  +--------------+
+| GMainLoop |->| trap_callback() |->| rest_parse() |
++-----------+  +-----------------+  +--------------+
+
+for parsing and handling REST API we must specified
+our target REST protocol or we can write a simple one
+for our selves. if we write our REST protocol we can
+put our platform specific options into it.
+
+our rest phase can replug with other protocols very easily.
