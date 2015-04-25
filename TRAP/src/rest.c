@@ -10,7 +10,14 @@
  * [] Created By : Parham Alvani (parham.alvani@gmail.com)
  * =======================================
 */
+#include <glib.h>
 
+/*
+ * As an example,
+ * the result of g_strsplit(":a:bc::d:", ":", -1)
+ * is a NULL-terminated vector containing the six strings "", "a", "bc", "", "d" and "".
+*/
 void rest_parse(const char *path, struct rest_sdn *sdn)
 {
+
 }

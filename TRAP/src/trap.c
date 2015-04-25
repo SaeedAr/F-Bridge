@@ -17,13 +17,6 @@
 #include "trap.h"
 #include "rest.h"
 
-/*
- * Items are queried using the HTTP GET method.
- * The form of the URL is:
- * http://<domain-or-ip-address>/rest/v1/model/<data-type>/<optional-id>?<optional-query-params>
- * You can optionally include a trailing slash at the end of the path portion of the URL.
- */
-
 static void trap_callback(SoupServer *server, SoupMessage *msg,
 	const char *path, GHashTable *query,
 	SoupClientContext *client, gpointer user_data)

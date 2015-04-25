@@ -27,4 +27,8 @@ struct rest_sdn {
 
 void rest_parse(const char *path, struct rest_sdn *sdn);
 
+struct rest_sdn *rest_sdn_new(void);
+
+void rest_sdn_delete(struct rest_sdn *sdn);
+
 #endif
