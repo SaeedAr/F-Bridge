@@ -6,10 +6,10 @@
 #
 # [] Created By : Parham Alvani (parham.alvani@gmail.com)
 # =======================================
-add_executable (T-REX.out main.c proxy.c)
+add_executable (RBP.out main.c trap.c rest.c proxy.c)
 
 find_package(PkgConfig)
 pkg_check_modules(LIBSOUP REQUIRED libsoup-2.4>=2.48)
 include_directories(${LIBSOUP_INCLUDE_DIRS})
 link_directories(${LIBSOUP_LIBRARY_DIRS})
-target_link_libraries(T-REX.out ${LIBSOUP_LIBRARIES})
+target_link_libraries(RBP.out ${LIBSOUP_LIBRARIES})

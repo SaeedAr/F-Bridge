@@ -13,6 +13,7 @@
 #ifndef PROXY_H
 #define PROXY_H
 
-void trex_init(void);
+void trex_callback(SoupServer *server, SoupMessage *msg,
+	const char *path, GHashTable *query, const char *dest);
 
 #endif

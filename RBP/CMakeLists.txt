@@ -7,7 +7,7 @@
 # [] Created By : Parham Alvani (parham.alvani@gmail.com)
 # =======================================
 cmake_minimum_required (VERSION 2.6)
-project (TRAP)
+project (RBP)
 
 # Set porject imformation
 set (CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/lib")
@@ -17,8 +17,8 @@ set (CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin")
 subdirs (src)
 
 # The version number
-set (TRAP_MAJOR_VERSION 1)
-set (TRAP_MINOR_VERSION 0)
+set (RBP_MAJOR_VERSION 1)
+set (RBP_MINOR_VERSION 1)
 
 # Add personal c flags
 set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -O0 -g -std=gnu11 ")

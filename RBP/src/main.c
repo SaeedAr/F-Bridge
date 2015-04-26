@@ -5,7 +5,7 @@
  *
  * [] Creation Date : 22-03-2015
  *
- * [] Last Modified : Mon 23 Mar 2015 02:27:09 AM IRDT
+ * [] Last Modified : Fri 24 Apr 2015 01:01:21 AM IRDT
  *
  * [] Created By : Parham Alvani (parham.alvani@gmail.com)
  * =======================================
@@ -14,15 +14,19 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#include "proxy.h"
+#include "trap.h"
 
 int main(int argc, char *argv[])
 {
 	GMainLoop *loop;
 
-	trex_init();
+	/* Build soup server and event handler */
+	trap_init();
 
+	/* Create main event loop */
 	loop = g_main_loop_new(NULL, true);
 	g_main_loop_run(loop);
 	g_main_loop_unref(loop);
+
+	return 0;
 }
