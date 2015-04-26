@@ -6,7 +6,7 @@
 #
 # [] Created By : Parham Alvani (parham.alvani@gmail.com)
 # =======================================
-add_executable (RBP.out main.c trap.c rest.c proxy.c)
+add_executable (RBP.out main.c trap.c rest.c trex.c)
 
 find_package(PkgConfig)
 pkg_check_modules(LIBSOUP REQUIRED libsoup-2.4>=2.48)

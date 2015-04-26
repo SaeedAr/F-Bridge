@@ -16,7 +16,7 @@
 #include <libsoup/soup.h>
 #include <stdbool.h>
 
-#include "proxy.h"
+#include "trex.h"
 
 struct destination_info {
 	SoupServer *server;

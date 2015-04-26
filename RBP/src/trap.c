@@ -17,7 +17,7 @@
 
 #include "trap.h"
 #include "rest.h"
-#include "proxy.h"
+#include "trex.h"
 
 static void trap_callback(SoupServer *server, SoupMessage *msg,
 	const char *path, GHashTable *query,
