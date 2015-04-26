@@ -2,8 +2,9 @@ RBP
 =======
 # Pipeline
 ## TRAP
-TRAP (Tiny REST API Parser) is a simple simulation of
-our pipeline.
+TRAP (Tiny REST API disPatcher) is a simple
+single thread http server that receive and dispatch
+HTTP requests into RBP pipeline.
 
 ## T-REX
 T-REX (Tiny REST eXchanger) is a simple proxy
