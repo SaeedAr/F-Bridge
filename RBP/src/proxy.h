@@ -3,12 +3,13 @@
  * ========================================
  * [] File Name : proxy.h
  *
- * [] Creation Date : 23-03-2015
- *
- * [] Last Modified : Mon 23 Mar 2015 02:12:06 AM IRDT
+ * [] Creation Date : 26-04-2015
  *
  * [] Created By : Parham Alvani (parham.alvani@gmail.com)
  * =======================================
+*/
+/*
+ * Copyright (c) 2015 Parham Alvani.
 */
 #ifndef PROXY_H
 #define PROXY_H

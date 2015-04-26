@@ -3,12 +3,13 @@
  * ========================================
  * [] File Name : trap.c
  *
- * [] Creation Date : 23-03-2015
- *
- * [] Last Modified : Fri 24 Apr 2015 01:05:58 AM IRDT
+ * [] Creation Date : 26-04-2015
  *
  * [] Created By : Parham Alvani (parham.alvani@gmail.com)
  * =======================================
+*/
+/*
+ * Copyright (c) 2015 Parham Alvani.
 */
 #include <glib.h>
 #include <stdlib.h>
