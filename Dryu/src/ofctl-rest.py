@@ -9,7 +9,6 @@
 __author__ = 'Parham Alvani'
 
 import logging
-
 import json
 import ast
 from webob import Response
