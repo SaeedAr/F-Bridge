@@ -1,0 +1,28 @@
+\documentclass[11pt]{article}
+
+\usepackage{xepersian}
+
+\title{\lr{F-Bridge Development}}
+\author{پرهام الوانی}
+
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			\emph{به نام خدا}
+		\end{center}
+		\maketitle
+	\end{titlepage}
+	\tableofcontents
+	\newpage
+	\section{\lr{T-REX}}
+	ماژول پراکسی برای پروتکل \lr{REST} مبتنی بر \lr{C} و کتابخانه متن باز \lr{libsoup} تحت عنوان \lr{T-REX} پیاده سازی شد و تحت چند سناریو ساده امتحان شد. 
+	در ادامه با موفقیت آمیز بودن این آزمایشها این مازول به \lr{Pipeline} اضافه شد.
+	\section{\lr{TRAP}}
+	این ماژول یک پیاده ساری اولیه تک نخی برای انجام گام های \lr{Pipeline} است. این ماژول وظیفه ی توزیع و فراخوانی سایر ماژولها در \lr{Pipeline} را بر عهده دارد.
+	\section{\lr{Ryu}}
+	مطالعات اندکی روی \lr{Ryu SDN Controller} ها به منظور بررسی صلاحیتشان برای استفاده در پروژه انجام شد که طی آن یک نمونه کد تحت عنوان \lr{L2 Switch} برای تست این پلتفرم نوشته شد. در ادامه \lr{REST API} این پلتفرم 
+	به منظور بازبینی و افزودن ویژگی های مورد نیاز برای \lr{Local Bridge Agent} در مخزن گیت قرار گرفت و دستورات آن دسته بندی و طبقه بندی شد.
+	\section{\lr{Open-VZ}}
+	پلتفرم تست \lr{Application} به همراه ویژگی \lr{live migration} به وسیله ی دو ماشین مجازی \lr{ubuntu} راه اندازی شد و تست گردید. در ادامه با توجه به بررسی های انجام شده مشخص شد که \lr{Open-VZ} هیچگونه \lr{API} ای ندارد و برای کار کردن با آن
+	میبایست از دستورات آن استفاده نمود. به این ترتیب برای دسترسی به بار هر یک از \lr{container} ها میبایست ار همین دستورات یا از برنامه هایی مانند \lr{zenoss} استفاده نمود.
+\end{document}
