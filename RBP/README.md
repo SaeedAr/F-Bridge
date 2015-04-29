@@ -1,6 +1,9 @@
 RBP
 =======
 # Pipeline
+our remote bridge pipeline consist of following
+components.
+
 ## TRAP
 TRAP (Tiny REST API disPatcher) is a simple
 single thread http server that receive and dispatch
@@ -12,7 +15,8 @@ for REST protocol over http. for now it support
 only http.
 
 # Dependency
-1. [libsoup 2.48](https://developer.gnome.org/libsoup/stable/)
+1. [CMake 2.6](http://cmake.org)
+2. [libsoup 2.48](https://developer.gnome.org/libsoup/stable/)
 
 # Installation
 ```
