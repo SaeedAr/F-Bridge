@@ -4,7 +4,7 @@
  * #  Project F-Bridge                 [project home-page]
  * #
  * #  File:
- * #        [/RBP/src/trex.h]
+ * #        /RBP/src/trex.h
  * #
  * #  Copyright notice:
  * #        Copyright (C) 2014, 2015 Project F-Bridge Group, CEIT Department,
@@ -14,10 +14,8 @@
  * #	Parham Alvani (parham.alvani@gmail.com)
  * #
  * #  Description:
- * #	[Probably the most significant part of the header comment. A brief
- * #	description of file, including the module it belongs to, its relevance
- * #	to the project and other files or modules and the main tasks
- * #	it handles.]
+ * #	T-REX module header file. this module work as REST proxy server
+ * #    at the end of RBP pipeline.
  * #
  * #  Licence:
  * #        This file is part of the F-Bridge Project package.

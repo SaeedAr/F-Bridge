@@ -4,7 +4,7 @@
  * #  Project F-Bridge                 [project home-page]
  * #
  * #  File:
- * #        [/RBP/src/trex.c]
+ * #        /RBP/src/trex.c
  * #
  * #  Copyright notice:
  * #        Copyright (C) 2014, 2015 Project F-Bridge Group, CEIT Department,
