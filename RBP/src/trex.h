@@ -14,8 +14,8 @@
  * #	Parham Alvani (parham.alvani@gmail.com)
  * #
  * #  Description:
- * #	T-REX module header file. this module work as REST proxy server
- * #    at the end of RBP pipeline.
+ * #	T-REX module header file includes it's public interface.
+ * #    this module work as REST proxy server at the end of RBP pipeline.
  * #
  * #  Licence:
  * #        This file is part of the F-Bridge Project package.

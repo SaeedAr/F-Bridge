@@ -14,10 +14,8 @@
  * #	Parham Alvani (parham.alvani@gmail.com)
  * #
  * #  Description:
- * #	[Probably the most significant part of the header comment. A brief
- * #	description of file, including the module it belongs to, its relevance
- * #	to the project and other files or modules and the main tasks
- * #	it handles.]
+ * #    trap module header file includes it's public interface.
+ * #    trap module work as start point of RBA pipeline.
  * #
  * #  Licence:
  * #        This file is part of the F-Bridge Project package.
