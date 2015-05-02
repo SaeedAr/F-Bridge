@@ -3,7 +3,7 @@
 #  Project F-Bridge                 [project home-page]
 #
 #  File:
-#        [/RBP/src/CMakeLists.txt]
+#        /RBP/src/CMakeLists.txt
 #
 #  Copyright notice:
 #        Copyright (C) 2014, 2015 Project F-Bridge Group, CEIT Department,
@@ -13,10 +13,7 @@
 #	Parham Alvani (parham.alvani@gmail.com)
 #
 #  Description:
-#	[Probably the most significant part of the header comment. A brief
-#	description of file, including the module it belongs to, its relevance
-#	to the project and other files or modules and the main tasks
-#	it handles.]
+#   Cmake configuration file.
 #
 #  Licence:
 #        This file is part of the F-Bridge Project package.
